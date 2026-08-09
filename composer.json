@@ -1,0 +1,17 @@
+{
+    "name": "denise/centro-reviver",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Denise Mendes Janotaa",
+            "email": "denisemendesjanota@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
