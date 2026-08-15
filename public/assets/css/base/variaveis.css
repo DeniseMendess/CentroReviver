@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:opsz@18..144&family=Roboto+Flex:opsz,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,96,468,79,-203,738,514,712&display=swap');
+
+
+:root { 
+  --bg-color: hsl(210, 7%, 95%);
+  --cor-primaria: hsl(163, 41%, 25%);
+  --cor-secundaria: #02744a;
+  --cor-destaque: #03a56a;
+  --cor-branca: hsla(0, 0%, 100%, 0.941);
+  --cor-preta: hsl(0, 0%, 5%);
+  --cor-texto-opacity: hsla(210, 11%, 15%, 0.749);
+  --opacity-color-20: hsla(163, 41%, 25%, 0.2);
+  --opacity-color-30: hsla(163, 41%, 25%, 0.3);
+
+
+  --font-body: "Roboto Flex", sans-serif;
+  --font-destaque: "Merriweather", serif;
+
+
+  --h1-font-size: clamp(1.5rem, 3vw, 2.5rem);
+  --h2-font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+  --h3-font-size: clamp(1rem, 2vw, 1.4rem);
+  --normal-font-size: clamp(.95rem, 1.5vw, 1.05rem);
+  --small-font-size: clamp(.8rem, 1.2vw, .9rem);
+  --logo: clamp(4.5rem, 15vw, 6rem);
+
+
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+
+
+  --z-tooltip: 10;
+  --z-button: 222;
+  --z-overlay: 999;
+  --z-fixed: 1000;
+
+
+  --transition-025s: all .25s ease-in-out;
+  --transition-03s: all .3s ease-in-out;
+  --border-radius: 2.5rem;
+  --linear-gradient: linear-gradient(135deg, var(--cor-destaque), var(--cor-primaria));
+}

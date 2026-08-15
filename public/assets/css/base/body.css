@@ -1,0 +1,94 @@
+body {
+  background-color: var(--bg-color);
+  color: var(--cor-preta);
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-sizing: border-box;
+  font-family: var(--font-body);
+  font-size: var(--normal-font-size);
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* SweetAlert2 não alterar layout */
+body.swal2-shown {
+  padding-right: 0 !important;
+  overflow-y: auto !important;
+}
+
+.btn {
+  font-size: var(--h3-font-size);
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+}
+
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.main {
+  background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  transition: var(--transition-025s);
+  margin-left: 0;
+  overflow-x: hidden;
+}
+
+.main-content {
+  padding: 1.5rem;
+  flex: 1;
+  overflow-x: auto;
+}
+
+#sidebar.expand~.main {
+  margin-left: 260px;
+  width: calc(100% - 260px);
+}
+
+.main .navbar {
+  margin-left: 0;
+  width: 100%;
+}
+
+.main-center {
+  min-height: calc(100vh - 100px);
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+
+@media screen and (min-width:768px) {
+  .main-content {
+    padding: 1.5rem;
+  }
+}
+
+@media sreen and (max-width:992px) {
+  .main {
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+
+  .main-content {
+    padding: 1rem;
+  }
+}

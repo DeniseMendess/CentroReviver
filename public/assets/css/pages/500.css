@@ -1,0 +1,140 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: var(--linear-gradient);
+}
+
+.content {
+  display: flex;
+  width: min(100rem, 90vw);
+  min-height: 70vh;
+  overflow: hidden;
+
+  border-radius: var(--border-radius);
+  corner-shape: squircle;
+
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+
+/* Lado do conteúdo */
+.card-content {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 3rem;
+  text-align: center;
+  background-color: var(--cor-branca);
+}
+
+.card-body {
+  width: 100%;
+  max-width: 35rem;
+}
+
+/* Ícone */
+.card-icon {
+  display: block;
+  margin-bottom: 1rem;
+
+  color: #dc3545;
+  font-size: 6rem;
+}
+
+.card-body h1 {
+  margin: 0;
+
+  color: #dc3545;
+  font-size: clamp(3rem, 6vw, 5rem);
+  line-height: 1;
+  font-weight: var(--font-semi-bold);
+}
+
+.card-body h2 {
+  margin: 1rem 0;
+
+  color: var(--cor-preta);
+  font-weight: var(--font-bold);
+}
+
+.card-body p {
+  margin: 0 auto 1.5rem;
+  color: var(--cor-texto-opacity);
+  font-size: var(--normal-font-size);
+  line-height: 1.6;
+}
+
+.btn-back {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+
+  padding: .65rem 1.2rem;
+
+  color: var(--cor-branca);
+  background-color: #6c757d;
+
+  border-radius: .4rem;
+
+  text-decoration: none;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+
+  transition: var(--transition-025s);
+}
+
+.btn-back:hover {
+  color: var(--cor-branca);
+  background-color: #5c636a;
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 1rem;
+  }
+
+  .content {
+    width: 100%;
+    min-height: auto;
+    flex-direction: column;
+  }
+
+  .card-img,
+  .card-content {
+    width: 100%;
+  }
+
+  .card-img {
+    min-height: 40vh;
+    padding: 2rem;
+  }
+
+  .card-content {
+    min-height: 40vh;
+    padding: 2rem;
+  }
+
+  .card-img img {
+    width: min(22rem, 80%);
+  }
+}
+
+.card-img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+
+  background-color: var(--cor-primaria);
+}
+
+.card-img img {
+  display: block;
+  width: min(31rem, 100%);
+  height: auto;
+}
