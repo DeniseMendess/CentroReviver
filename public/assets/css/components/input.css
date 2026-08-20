@@ -1,0 +1,38 @@
+form,
+.input-group {
+  width: 100%;
+}
+
+.form-label {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: 1rem;
+}
+
+.input-group-text,
+.form-control,
+.form-select {
+  padding: clamp(.95rem, 1.5vw, 1.05rem);
+  font-size: var(--normal-font-size);
+  border-radius: 6px;
+  transition: var(--transition-025s);
+}
+
+.form-control:focus,
+.form-select:focus {
+  border: 1px solid var(--cor-destaque);
+  box-shadow: none;
+}
+
+.input-group:focus-within .form-control,
+.input-group:focus-within .password-toggle {
+  border-color: var(--cor-destaque);
+  box-shadow: none;
+}
+
+.input-group:focus-within .password-toggle {
+  color: var(--cor-destaque);
+}
+::placeholder {
+  font-size: var(--normal-font-size);
+}
