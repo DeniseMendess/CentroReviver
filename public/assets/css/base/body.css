@@ -3,7 +3,6 @@ body {
   color: var(--cor-preta);
   overflow-x: hidden;
   overflow-y: auto;
-  box-sizing: border-box;
   font-family: var(--font-body);
   font-size: var(--normal-font-size);
   position: relative;
@@ -18,7 +17,7 @@ body.swal2-shown {
 }
 
 .btn {
-  font-size: var(--h3-font-size);
+  font-size: var(--normal-font-size);
 }
 
 h1 {

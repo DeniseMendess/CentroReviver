@@ -8,10 +8,8 @@
   <link rel="shortcut icon" href="<?= URL ?>/assets/img/favicon.ico">
   <!-- ---------- bootstrap ---------- -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="<?= URL ?>/assets/libs/bootstrap/bootstrap.min.css">
   <!-- ---------- remixicon ---------- -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.9.1/fonts/remixicon.min.css">
-  <link rel="stylesheet" href="<?= URL ?>/assets/libs/remixicon/remixicon.css">
   <!-- ---------- estilos da página ---------- -->
   <link rel="stylesheet" href="<?= URL ?>/assets/css/global.css">
   <!-- ---------- css específico ---------- -->

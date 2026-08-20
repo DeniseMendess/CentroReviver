@@ -17,11 +17,11 @@
   --font-destaque: "Merriweather", serif;
 
 
-  --h1-font-size: clamp(1.5rem, 3vw, 2.5rem);
-  --h2-font-size: clamp(1.25rem, 2.5vw, 1.75rem);
-  --h3-font-size: clamp(1rem, 2vw, 1.4rem);
-  --normal-font-size: clamp(.95rem, 1.5vw, 1.05rem);
-  --small-font-size: clamp(.8rem, 1.2vw, .9rem);
+  --h1-font-size: clamp(2.4rem, 3vw, 3.2rem);
+  --h2-font-size: clamp(2rem, 2.5vw, 2.5rem);
+  --h3-font-size: clamp(1.7rem, 2vw, 2.2rem);
+  --normal-font-size: clamp(1.2rem, 1.5vw, 1.4rem);
+  --small-font-size: clamp(.95rem, 1.2vw, 1rem);
   --logo: clamp(4.5rem, 15vw, 6rem);
 
 
